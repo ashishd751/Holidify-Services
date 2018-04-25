@@ -1,0 +1,33 @@
+{
+  "name": "holidifyservices",
+  "version": "1.0.0",
+  "description": "Backend REST API's for Holidify",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishd751/Holidify-Services.git"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "Node",
+    "Backend"
+  ],
+  "author": "Ashish Deshpande",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashishd751/Holidify-Services/issues"
+  },
+  "homepage": "https://github.com/ashishd751/Holidify-Services#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.16"
+  }
+}
